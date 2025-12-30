@@ -1,0 +1,15 @@
+# Core dependencies for FTP Email Processor
+# Python 3.8+ required
+
+# FTP and SFTP operations
+paramiko>=3.4.0
+
+# Data processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# HTTP requests for notifications
+requests>=2.31.0

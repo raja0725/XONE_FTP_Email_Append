@@ -1,0 +1,73 @@
+# Environment variables (SENSITIVE - NEVER COMMIT)
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# Logs (may contain sensitive data)
+*.log
+*.log.*
+ftp_processor.log
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+
+# Data directories (may contain sensitive files)
+data/downloads/*
+data/output/*
+attachments/downloads/*
+attachments/output/*
+downloads/
+output/
+
+# Keep directory structure but ignore contents
+!data/downloads/.gitkeep
+!data/output/.gitkeep
+!attachments/downloads/.gitkeep
+!attachments/output/.gitkeep
+
+# Credentials and secrets
+credentials.json
+secrets.json
+*.pem
+*.key
+*.crt
+
+# Test data with real information
+*_TEST.csv
+test_data/
+
+# Temporary files
+*.tmp
+*.temp
